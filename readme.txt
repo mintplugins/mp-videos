@@ -1,18 +1,18 @@
-=== Move Plugins Core ===
+=== MP Videos ===
 Contributors: johnstonphilip
 Donate link: http://moveplugins.com/
 Tags: message bar, header
 Requires at least: 3.0.1
 Tested up to: 3.5
-Stable tag: 4.3
+Stable tag: 1.0.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin gives developers access to a core set of classes for creating Settings, Metaboxes, Widgets, Plugins and more.
+Videos Custom Post Type with extra options.
 
 == Description ==
 
-This plugin gives developers access to a core set of classes for creating Settings, Metaboxes, Widgets, Plugins and more.
+Videos Custom Post Type with extra options.
 
 
 == Installation ==
@@ -25,17 +25,14 @@ This section describes how to install the plugin and get it working.
 
 == Frequently Asked Questions ==
 
-= What do I do with this?  =
-
-After you install, make sure to fill out all options under the Settings > Message Bar panel in the WordPress admin area.
 
 == Screenshots ==
 
-1. This is a screenshot of the Message Bar in action.
-
-2. This is a screenshot of the Message Bar option.
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0.2 = July 26, 2013
+*plugin-checker/plugin-installer classes change
+
+= 1.0.0.0 = July 01, 2013
 * Original release

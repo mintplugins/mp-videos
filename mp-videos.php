@@ -3,7 +3,7 @@
 Plugin Name: MP Videos
 Plugin URI: http://moveplugins.com
 Description: Post Videos from YouTube, Vimeo, and more
-Version: 1.0.0.1
+Version: 1.0.0.2
 Author: Move Plugins
 Author URI: http://moveplugins.com
 Text Domain: mp_videos
@@ -105,7 +105,12 @@ function mp_videos_include_files(){
 		/**
 		 * Include Plugin Checker
 		 */
-		require( MP_VIDEOS_PLUGIN_DIR . 'includes/plugin-checker/class-plugin-checker.php' );
+		require( MP_VIDEOS_PLUGIN_DIR . '/includes/plugin-checker/class-plugin-checker.php' );
+		
+		/**
+		 * Include Plugin Installer
+		 */
+		require( MP_VIDEOS_PLUGIN_DIR . '/includes/plugin-checker/class-plugin-installer.php' );
 		
 		/**
 		 * Check if wp_core in installed
